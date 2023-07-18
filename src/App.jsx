@@ -1,4 +1,4 @@
- import { useState } from "react";
+import { useState } from "react";
 import Form from "./components/Form/Form";
 import Header from "./components/Header/Header";
 import ResultTable from "./components/ResultTable/ResultTable";
@@ -8,6 +8,7 @@ const App = () => {
 
   const calculateHandler = (userInputs) => {
     //lifting the state up
+    //Lifting da stetupkdfgig
     setUserInputs(userInputs);
   };
 
